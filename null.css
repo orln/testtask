@@ -1,0 +1,115 @@
+body {
+    background-color: #27263D;
+}
+
+label {
+    float: left;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.main {
+    float: left;
+    font-family: Arial, Verdana, sans-serif;
+    color: #F5FFFA;
+}
+
+.field {
+    clear: both;
+    text-align: right;
+    line-height: 25px;
+}
+
+.button {
+    padding: 3px 0px;
+    font-size: 18px;
+    width: 300px;
+    color: #F5FFFA;
+}
+
+.underfield {
+    float: left;
+    font-family: Arial, Verdana, sans-serif;
+    color: #F5FFFA;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    margin-top: 250px;
+}
+
+input[type=text] {
+    padding: 3px 30px;
+    border: 0;
+    font-size: 14px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: 500;
+    width: 124px;
+}
+
+#search {
+    background-color: #708090;
+    color: #F5FFFA;
+    padding: 3px 30px;
+    border: 0;
+    font-size: 18px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: 500;
+    width: 124px;
+}
+
+#insert {
+    background-color: #8B7AA8;
+    color: #F5FFFA;
+    padding: 3px 30px;
+    border: 0;
+    font-size: 18px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: 500;
+    width: 124px;
+}
+
+#rebase {
+    background-color: #6E6C78;
+    color: #F5FFFA;
+    padding: 3px 30px;
+    border: 0;
+    font-size: 18px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: 500;
+    width: 124px;
+    margin-top: 5px;
+}
+
+table {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    counter-reset: numcounter;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    background: #6E6C78;
+    color: white;
+    padding: 10px 20px;
+}
+
+tr {
+    counter-increment: numcounter;
+}
+
+tr:before {
+    content: counter(numcounter);
+    display: table-cell;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    background: #708090;
+    padding: 10px 20px;
+}
